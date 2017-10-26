@@ -1,6 +1,6 @@
 import React from 'react';
 import { View } from 'react-native';
-import Card from './card';
+import Card from './Card';
 
 const CardSection = (props) => {
   return (
@@ -17,7 +17,7 @@ const styles = {
     justifyContent: 'flex-start',
     flexDirection : 'row',
     borderColor: '#ddd',
-    position: 'relative '
+    position: 'relative'
   }
 }
 export default CardSection;
